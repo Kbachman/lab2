@@ -29,6 +29,39 @@ body {
 }
 
 .content{
-	border: 120% auto;
+	padding: 20px;
+	width: 80%;
 	background-color: #FFF;
+	box-shadow: 1px 1px 1px #888;
+	margin: 0 auto;
+}
+nav {
+	background-color: #D74710;
+	color: #FFF;
+	padding: 10px;
+	border-radius: 5px;
+
+}
+li {
+	display:inline;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.header_content a {
+	text-decoration: none;
+}
+.img1{
+	float:left;
+}
+.img2{
+	float:right;
+}
+.footer {
+	border-top-width: 1px;
+	border-top-style:solid;
+	border-top-color:#000000;
+	font-style: italic;
+	font-size: 80%;
 }
